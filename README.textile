@@ -11,34 +11,11 @@ h4. Data Format
 The only required attribute for the data series is the "label" and at least two other attributes to map. Here is an example:
 
 <pre><code>
-series: {
-  data :[
-  {
-      'label': "Braintree",
-      'rate': 155.6,
-      'population': 60700,
-      'observation': 131
-  },
-  {
-      'label': "Breckland",
-      'rate': 210.2,
-      'population': 54100,
-      'observation': 92
-  },
-  {
-      'label': "Brentwood",
-      'rate': 111.9,
-      'population': 34100,
-      'observation': 43
-  },
-  {
-      'label': "Kings Lynn",
-      'rate': 138.5,
-      'population': 64000,
-      'observation': 105
-  }
-  ]
-}
+  series: [{
+    name: 'Female',
+    color: 'rgba(223, 83, 83, .5)',
+    data: [[161.2, 51.6], [167.5, 59.0], [159.5, 49.2], [157.0, 63.0], [155.8, 53.6]
+  }]
 </code></pre>
 
 h4. When To Use A Funnel Plot
