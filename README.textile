@@ -1,0 +1,13 @@
+h4. When To Use A Funnel Plot
+
+A funnel plot is best used to plot a collection of data-points together to determine bias in any one subset of the data. Funnel plots are used to visualize a specific data point precision and size. 
+
+h4. About Funnel Plots
+
+bq. "Funnel plots are a visual tool for investigating publication and other bias in meta-analysis. They are simple scatterplots of the treatment effects estimated from individual studies (horizontal axis) against a measure of study size (vertical axis). The name “funnel plot” is based on the precision in the estima- tion of the underlying treatment effect increasing as the sample size of component studies increases. Therefore, in the absence of bias, results from small studies will scatter widely at the bottom of the graph, with the spread narrowing among larger studies. Publication bias (the association of publication probability with the statistical significance of study results) may lead to asymmetrical funnel plots. It is, however, important to realize that publication bias is only one of a number of possible causes of funnel-plot asymmetry—funnel plots should be seen as a generic means of examining small study effects (the tendency for the smaller studies in a meta-analysis to show larger treatment effects) rather than a tool to diagnose specific types of bias. This article introduces the metafunnel command, which produces funnel plots in Stata. In accordance with published recommendations, standard error is used as the measure of study size. Treatment effects expressed as ratio measures (for example risk ratios or odds ratios) may be plotted on a log scale."
+
+??Sterne, Jonathan A. C. and R. M. Harbord, Funnel plots in meta-analysis, The Stata Journal 4:, Number 2, 127–141??
+
+h4. Additional References to Funnel Plots
+
+http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/10_4_1_funnel_plots.htm
