@@ -73,11 +73,10 @@ $.fn.funnelPlot = function(options) {
             }
             var x = this.stats(xData);
             var y = this.stats(yData);
-            console.log(x)
             parts.push(this.funnelCurve({
                 color: "#0000aa",
                 dashStyle: "ShortDash",
-                data: [[x.min, y.median], [x.max, y.max]]
+                data: [[x.min, y.max], [x.max, y.median]]
             }));
             parts.push(this.funnelCurve({
                 name: 'Median',
@@ -87,7 +86,7 @@ $.fn.funnelPlot = function(options) {
             parts.push(this.funnelCurve({
                 color: "#0000aa",
                 dashStyle: "ShortDash",
-                data: [[x.min, y.median], [x.max, y.min]]
+                data: [[x.min, y.min], [x.max, y.median]]
             }));
             return (parts);
         }
