@@ -2,6 +2,12 @@ h4. Introduction
 
 This funnel plot plugin extends the highcharts plotting / graphing library. Check the examples folder for specific examples on how to use this plot.
 
+Steps for generating a Funnel Plot are
+  1. Compute the mean of each category.
+  2. Compute the overall mean, y and standard deviation, s.
+  3. Compute control limits y ± zα * s / sqrt(n) where zα is the α quantile of the normal distribution and n varies between the number of observations in the smallest group and the number in the largest group.
+  4. Plot the mean of each category against the sample size and overlay the control limits.
+
 h4. Options
 
 Observation Average Value (optional) : Number - If this value is not included the observation average will be computed using the data provided.
@@ -36,7 +42,12 @@ h4. Problems with Funnel Plots
 
 ??http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/10_4_1_funnel_plots.htm??
 
+h4. Keywords
+
+"bias", "control charts", "institutional profiling", "outliers", "over-dispersion", "ranking" 
+
 h4. Additional References to Funnel Plots
 
 "http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/figure_10_4_a_hypothetical_funnel_plots.htm":http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/figure_10_4_a_hypothetical_funnel_plots.htm
 "http://tools.erpho.org.uk/poisson.aspx":http://tools.erpho.org.uk/poisson.aspx
+"http://medicine.cf.ac.uk/media/filer_public/2010/09/24/spiegelhalter_stats_in_med_funnel_plots.pdf":http://medicine.cf.ac.uk/media/filer_public/2010/09/24/spiegelhalter_stats_in_med_funnel_plots.pdf

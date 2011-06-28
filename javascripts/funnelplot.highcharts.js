@@ -73,6 +73,7 @@ $.fn.funnelPlot = function(options) {
             }
             var x = this.stats(xData);
             var y = this.stats(yData);
+            console.log(x)
             parts.push(this.funnelCurve({
                 color: "#0000aa",
                 dashStyle: "ShortDash",
