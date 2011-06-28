@@ -1,3 +1,7 @@
+h3. This is alpha quality software
+
+Specifically, much of calculating a funnel plot depends on rendering the funnel through some non-trival math & statistics, that is frankly beyond me. Instead, I have used a calculated mean/max to render the elements of the funnel. This may not be ideal for all situations because in most cases funnel plots are created through the plotting of the standard deviation. There is a detailed example of how one creates a funnel based off of SD in this paper: spiegelhalter_stats_in_med_funnel_plots.pdf . I leave that as an exercise for the reader.
+
 h4. Introduction
 
 This funnel plot plugin extends the highcharts plotting / graphing library. Check the examples folder for specific examples on how to use this plot.
