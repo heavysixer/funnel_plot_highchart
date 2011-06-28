@@ -4,10 +4,40 @@ This funnel plot plugin extends the highcharts plotting / graphing library. Chec
 
 h4. Options
 
-Plot Title : String
-X Axis Label : String
-Y Axis Label : String
-Observation Average Value (optional) : Number - If this value is not included the observation average will be computed using the data provided.
+  Observation Average Value (optional) : Number - If this value is not included the observation average will be computed using the data provided.
+
+h4. Data Format
+
+<pre><code>
+series: {
+  data :[
+  {
+      'label': "Braintree",
+      'rate': 155.6,
+      'population': 60700,
+      'observation': 131
+  },
+  {
+      'label': "Breckland",
+      'rate': 210.2,
+      'population': 54100,
+      'observation': 92
+  },
+  {
+      'label': "Brentwood",
+      'rate': 111.9,
+      'population': 34100,
+      'observation': 43
+  },
+  {
+      'label': "Kings Lynn",
+      'rate': 138.5,
+      'population': 64000,
+      'observation': 105
+  }
+  ]
+}
+</code></pre>
 
 h4. When To Use A Funnel Plot
 
@@ -29,6 +59,5 @@ h4. Problems with Funnel Plots
 
 h4. Additional References to Funnel Plots
 
-http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/10_4_1_funnel_plots.htm
 http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/figure_10_4_a_hypothetical_funnel_plots.htm
 http://tools.erpho.org.uk/poisson.aspx

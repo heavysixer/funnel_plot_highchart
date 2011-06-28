@@ -9,35 +9,36 @@
     <script type="text/javascript" src="../javascripts/funnelplot.highcharts.js"></script>
     <script type="text/javascript">
       $("#container").funnelPlot({
+        title : {
+          text : 'Directly Standardized Rates'
+        },
         series: {
-          name: 'Benchmark',
           data :[
           {
-              'label': Braintree,
+              'label': "Braintree",
               'rate': 155.6,
               'population': 60700,
               'observation': 131
           },
           {
-              'label': Breckland,
+              'label': "Breckland",
               'rate': 210.2,
               'population': 54100,
               'observation': 92
           },
           {
-              'label': Brentwood,
+              'label': "Brentwood",
               'rate': 111.9,
               'population': 34100,
               'observation': 43
           },
           {
-              'label': Kings Lynn,
+              'label': "Kings Lynn",
               'rate': 138.5,
               'population': 64000,
               'observation': 105
           }
           ]
-          
         }
       });
     </script>
