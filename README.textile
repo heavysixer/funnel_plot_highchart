@@ -1,6 +1,17 @@
+h4. Introduction
+
+This funnel plot plugin extends the highcharts plotting / graphing library. Check the examples folder for specific examples on how to use this plot.
+
+h4. Options
+
+Plot Title : String
+X Axis Label : String
+Y Axis Label : String
+Observation Average Value (optional) : Number - If this value is not included the observation average will be computed using the data provided.
+
 h4. When To Use A Funnel Plot
 
-A funnel plot is best used to plot a collection of data-points together to determine bias in any one subset of the data. Funnel plots are used to visualize a specific data point precision and size. 
+A funnel plot is best used when the goal of the visualization is to detect bias of a particular result using related data that measure the same event. Funnel plots are often used as a tool of meta-analysis used to compare the results of smaller dataset to the larger datasets to find intervention effect.
 
 h4. About Funnel Plots
 
@@ -8,6 +19,16 @@ bq. "Funnel plots are a visual tool for investigating publication and other bias
 
 ??Sterne, Jonathan A. C. and R. M. Harbord, Funnel plots in meta-analysis, The Stata Journal 4:, Number 2, 127–141??
 
+h4. Problems with Funnel Plots
+
+"Some authors have argued that visual interpretation of funnel plots is too subjective to be useful. In particular, Terrin et al. found that researchers had only a limited ability to correctly identify funnel plots from meta-analyses subject to publication bias (Terrin 2005)."
+
+"A further, important, problem with funnel plots is that some effect estimates (e.g. odds ratios and standardized mean differences) are naturally correlated with their standard errors, and can produce spurious asymmetry in a funnel plot. We discuss this problem in more detail in Section 10.4.3."
+
+??http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/10_4_1_funnel_plots.htm??
+
 h4. Additional References to Funnel Plots
 
 http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/10_4_1_funnel_plots.htm
+http://www.mrc-bsu.cam.ac.uk/cochrane/handbook/chapter_10/figure_10_4_a_hypothetical_funnel_plots.htm
+http://tools.erpho.org.uk/poisson.aspx
